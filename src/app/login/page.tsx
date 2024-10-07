@@ -25,13 +25,13 @@ export default function Home() {
       {/* main content - será mostrado sempre */}
       <div className="w-full lg:w-1/3 h-screen">
         <div
-          className={`flex flex-col relative justify-center h-full rounded-none lg:rounded-l-2xl bg-zinc-50`}
+          className={`flex flex-col relative justify-center h-full rounded-none lg:rounded-l-2xl bg-zinc-50 border-l-[3px] border-solid border-zinc-400`}
         >
           {/** Posiciono um pouco pra cima */}
           <div className={`mb-20 `}>
             <div className={`flex items-center justify-center`}>
               <Image
-                className="max-w-[250px]"
+                className="max-w-[250px] select-none"
                 src="/pg-transparent.png"
                 width={1920}
                 height={1080}

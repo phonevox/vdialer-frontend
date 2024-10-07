@@ -10,6 +10,11 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
+			phonevox: {
+				primary: 'var(--primary-color)',
+				secondary: 'var(--secondary-color)',
+				accent: 'var(--accent-color)',
+			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
