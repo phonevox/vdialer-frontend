@@ -17,13 +17,13 @@ const SideNav = ({ className }: Props) => {
   return (
     <div className="flex flex-col bg-zinc-50 border-r-[1px] border-zinc-300 w-64">
       {/** top part of the sidebar */}
-      <div className="flex flex-col items-center justify-center h-16 border-b-[1px] border-zinc-300 ">
+      <div className="flex flex-col items-center justify-center min-h-16 max-h-16 border-b-[1px] border-zinc-300 ">
         <span className="font-extrabold">Discador</span>
       </div>
 
       {/** sidebar items here */}
       <div className="flex flex-col gap-2.5 h-full p-2 ">
-        <NavLink href="/manager" label="Home">
+        <NavLink href="/dashboard" label="Dashboard">
           <VscHome />
         </NavLink>
         <NavLink href="/reports" label="Relatório">
